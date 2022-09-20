@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: Install dependencies and build project
-          command: echo "Hello World!"
+          command: "echo Hello, World!"
       - sonarcloud/scan
 
 orbs:
